@@ -22,3 +22,16 @@ This project demonstrates secure authentication and authorization using **JWT** 
 ```bash
 git clone https://github.com/your-username/role-based-api.git
 cd role-based-api
+npm install
+
+1.	Create a file config/config.env
+2.	Add the following environment variables
+
+PORT=8000
+DB_URL=your_postgres_connection_string
+JWT_SECRET=your_jwt_secret_here
+
+Or refer to .env.example
+
+3. Start the server
+npm start
